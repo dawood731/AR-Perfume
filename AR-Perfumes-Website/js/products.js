@@ -1,0 +1,197 @@
+// AR Perfumes - Luxury Fragrance Catalog Data
+const PRODUCTS_DATA = [
+  {
+    id: "arp-001",
+    name: "Royal Oud Al-Malaki",
+    arabicName: "العود الملكي",
+    tagline: "The Crown Jewel of Arabian Prestige",
+    category: "oud",
+    badge: "Bestseller",
+    price: 6500,
+    originalPrice: 8500,
+    size: "100ml / 3.4 oz",
+    concentration: "Extrait de Parfum (35% Essence)",
+    longevity: "24+ Hours",
+    sillage: "Enormous",
+    gender: "Unisex",
+    rating: 4.9,
+    reviewsCount: 148,
+    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80",
+    description: "An opulent blend of authentic Cambodian Agarwood, aged smoked amber, and Taif rose. Handcrafted to deliver a majestic royal aura that lingers gracefully in any room.",
+    notes: {
+      top: ["Taif Rose", "Saffron", "Bergamot Zest"],
+      heart: ["Cambodian Oud", "Smoked Amber", "Patchouli"],
+      base: ["Sandalwood", "Royal Musk", "Vanilla Bourbon"]
+    }
+  },
+  {
+    id: "arp-002",
+    name: "Lahore Velvet Noir",
+    arabicName: "مخمل نوار",
+    tagline: "Warm Nights, Exotic Spices & Seduction",
+    category: "oriental",
+    badge: "Limited Edition",
+    price: 5200,
+    originalPrice: 6800,
+    size: "100ml / 3.4 oz",
+    concentration: "Eau de Parfum",
+    longevity: "18+ Hours",
+    sillage: "Strong",
+    gender: "Unisex",
+    rating: 4.8,
+    reviewsCount: 96,
+    image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80",
+    description: "Inspired by the poetic mystique of Lahore heritage, combining rich velvety leather, roasted cardamom, tonka bean, and night-blooming jasmine.",
+    notes: {
+      top: ["Black Cardamom", "Cinnamon Bark", "Pink Pepper"],
+      heart: ["Night Jasmine", "Black Orchid", "Velvet Leather"],
+      base: ["Tonka Bean", "Golden Amber", "Cedarwood"]
+    }
+  },
+  {
+    id: "arp-003",
+    name: "Imperial White Musk",
+    arabicName: "المسك الأبيض الملكي",
+    tagline: "Pure Sophistication & Heavenly Clean Scent",
+    category: "musk",
+    badge: "Customer Favorite",
+    price: 4800,
+    originalPrice: 5900,
+    size: "100ml / 3.4 oz",
+    concentration: "Extrait de Parfum",
+    longevity: "16+ Hours",
+    sillage: "Intimate & Radiant",
+    gender: "Unisex",
+    rating: 5.0,
+    reviewsCount: 210,
+    image: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80",
+    description: "The epitome of clean luxury. A silky, crystalline white musk enriched with powdery iris, sweet vanilla, and delicate lily of the valley.",
+    notes: {
+      top: ["White Freesia", "Lily of the Valley", "Peach Nectar"],
+      heart: ["Florentine Iris", "Powdery White Musk", "Ylang-Ylang"],
+      base: ["Pure Ambergris", "Madagascar Vanilla", "Cashmere Wood"]
+    }
+  },
+  {
+    id: "arp-004",
+    name: "Sultan's Golden Amber",
+    arabicName: "عنبر السلطان الذهبي",
+    tagline: "Rich Warmth Dripping in 24K Liquid Gold",
+    category: "oriental",
+    badge: "Signature",
+    price: 5900,
+    originalPrice: 7200,
+    size: "100ml / 3.4 oz",
+    concentration: "Eau de Parfum Intense",
+    longevity: "20+ Hours",
+    sillage: "Heavy",
+    gender: "Men",
+    rating: 4.9,
+    reviewsCount: 112,
+    image: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80",
+    description: "A commanding masculine masterpiece. Warm amber crystallized with honeyed tobacco, nutmeg spice, and roasted tonka.",
+    notes: {
+      top: ["Cuban Tobacco Leaf", "Golden Honey", "Nutmeg"],
+      heart: ["Amber Crystals", "Guaiac Wood", "Cacao"],
+      base: ["Benzoin Resin", "Vetiver", "Dark Oakmoss"]
+    }
+  },
+  {
+    id: "arp-005",
+    name: "Aura Rose Sublime",
+    arabicName: "ورد سبلايم",
+    tagline: "A Modern Floral Symphony of French Petals",
+    category: "floral",
+    badge: "Trending",
+    price: 4500,
+    originalPrice: 5800,
+    size: "100ml / 3.4 oz",
+    concentration: "Eau de Parfum",
+    longevity: "14+ Hours",
+    sillage: "Moderate to Strong",
+    gender: "Women",
+    rating: 4.8,
+    reviewsCount: 84,
+    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80",
+    description: "An intoxicating bouquet of Damascena roses, sparkling Turkish peony, sweet lychee, and radiant musk that turns heads everywhere.",
+    notes: {
+      top: ["Lychee Fruit", "Italian Mandarin", "Bergamot"],
+      heart: ["Damascus Rose", "Pink Peony", "Magnolia Petals"],
+      base: ["White Musk", "Cedar", "Sunlit Amber"]
+    }
+  },
+  {
+    id: "arp-006",
+    name: "Aquatic Mirage",
+    arabicName: "السراب المائي",
+    tagline: "Crisp Ocean Breeze with Sun-Kissed Woods",
+    category: "fresh",
+    badge: "Summer Must-Have",
+    price: 4200,
+    originalPrice: 5500,
+    size: "100ml / 3.4 oz",
+    concentration: "Eau de Parfum",
+    longevity: "12+ Hours",
+    sillage: "Moderate",
+    gender: "Men",
+    rating: 4.7,
+    reviewsCount: 73,
+    image: "https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?auto=format&fit=crop&w=800&q=80",
+    description: "Ultra-fresh opening of Calabrian bergamot and aquatic marine accords, anchored by clean mineral ambergris and dry driftwood.",
+    notes: {
+      top: ["Calabrian Bergamot", "Sea Breeze Marine", "Grapefruit"],
+      heart: ["Rosemary", "Sage", "Geranium"],
+      base: ["Ambroxan", "Mineral Woods", "Patchouli"]
+    }
+  },
+  {
+    id: "arp-007",
+    name: "Dehn Al Oud Hindi (Special Attar)",
+    arabicName: "دهن العود الهندي الفاخر",
+    tagline: "Pure Concentrated Oil - Aged 12 Years",
+    category: "attar",
+    badge: "100% Pure Oil",
+    price: 7800,
+    originalPrice: 9900,
+    size: "12ml (1 Tola) Crystal Flacon",
+    concentration: "100% Pure Non-Alcoholic Oil",
+    longevity: "48+ Hours",
+    sillage: "Enormous",
+    gender: "Unisex",
+    rating: 5.0,
+    reviewsCount: 164,
+    image: "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=800&q=80",
+    description: "Extracted from vintage Indian Aquilaria trees. Deeply woody, leathery, balsamic, and spiritual. Stays on garments for days.",
+    notes: {
+      top: ["Aged Leather", "Wild Spices"],
+      heart: ["Dense Hindi Agarwood", "Smoked Resin"],
+      base: ["Earthy Musk", "Balsamic Wood", "Incense"]
+    }
+  },
+  {
+    id: "arp-008",
+    name: "Mukhallat AR Royal (Attar)",
+    arabicName: "مخلط ايه ار الملكي",
+    tagline: "Proprietary Blend of Saffron, Rose & Musk",
+    category: "attar",
+    badge: "House Signature",
+    price: 4900,
+    originalPrice: 6200,
+    size: "12ml (1 Tola) Royal Bottle",
+    concentration: "100% Pure Perfume Oil",
+    longevity: "36+ Hours",
+    sillage: "Strong",
+    gender: "Unisex",
+    rating: 4.9,
+    reviewsCount: 135,
+    image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=800&q=80",
+    description: "The pride of AR Perfumes Ichra Bazar. A harmonious marriage of sweet Kashmiri saffron, Bulgarian rose, golden amber, and animalic white musk.",
+    notes: {
+      top: ["Kashmiri Saffron", "Sweet Cardamom"],
+      heart: ["Bulgarian Rose", "Oud Wood"],
+      base: ["Golden Amber", "White Musk", "Sandalwood"]
+    }
+  }
+];
+
+window.PRODUCTS_DATA = PRODUCTS_DATA;
