@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AR Perfumes | Haute Parfumerie & Pure Royal Attars Lahore</title>
+  
+  <meta name="description" content="AR Perfumes - Signature Luxury Fragrances, Royal Cambodian Oud, French Florals & Concentrated Attars. Handcrafted in Main Ichra Bazar Lahore." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👑</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       AR PERFUMES - LUXURY BLACK & GOLD THEME (ALL-IN-ONE STANDALONE)
+       ========================================================================== */
+    :root {
+      --bg-pure-black: #060606;
+      --bg-primary: #0b0b0b;
+      --bg-secondary: #121212;
+      --bg-glass-card: rgba(20, 20, 20, 0.88);
+      --gold-primary: #d4af37;
+      --gold-light: #f6e6b4;
+      --gold-bright: #ffd700;
+      --gold-muted: #aa822d;
+      --gold-gradient: linear-gradient(135deg, #bf953f 0%, #fcf6ba 30%, #b38728 60%, #fbf5b7 80%, #aa771c 100%);
+      --gold-glow: 0 0 25px rgba(212, 175, 55, 0.35);
+      --gold-glow-intense: 0 0 35px rgba(212, 175, 55, 0.65);
+      --border-gold: rgba(212, 175, 55, 0.25);
+      --border-gold-bright: rgba(212, 175, 55, 0.6);
+      --shadow-luxury: 0 15px 35px rgba(0, 0, 0, 0.8), 0 0 15px rgba(212, 175, 55, 0.08);
+      --text-main: #f0ede6;
+      --text-muted: #a3a3a3;
+      --font-serif-royal: 'Cinzel', 'Cormorant Garamond', serif;
+      --font-serif-body: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Montserrat', sans-serif;
+      --font-arabic: 'Amiri', serif;
+      --wa-green: #25d366;
+      --transition-smooth: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; background-color: var(--bg-pure-black); }
+    body { font-family: var(--font-sans); background-color: var(--bg-pure-black); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+    
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #080808; }
+    ::-webkit-scrollbar-thumb { background: #2a2416; border-radius: 4px; border: 1px solid rgba(212, 175, 55, 0.3); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--gold-primary); }
+
+    .container { width: 100%; max-width: 1300px; margin: 0 auto; padding: 0 24px; }
+    h1, h2, h3, h4, .royal-font { font-family: var(--font-serif-royal); letter-spacing: 0.05em; color: #fff; font-weight: 600; }
+    p { color: var(--text-muted); font-size: 0.98rem; }
+    a { color: inherit; text-decoration: none; transition: var(--transition-smooth); }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; transition: var(--transition-smooth); }
+
+    .gold-gradient-text {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+
+    .section-header { text-align: center; margin-bottom: 55px; position: relative; }
+    .section-subtitle { font-family: var(--font-serif-royal); font-size: 0.85rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-primary); margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 12px; }
+    .section-subtitle::before, .section-subtitle::after { content: '—'; color: var(--gold-muted); }
+    .section-title { font-size: 2.6rem; font-weight: 700; line-height: 1.25; margin-bottom: 16px; }
+    .section-desc { max-width: 650px; margin: 0 auto; font-size: 1.05rem; color: #a8a8a8; }
+    .gold-divider { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 20px auto 0; max-width: 280px; }
+    .gold-divider .line { flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--gold-primary), transparent); }
+    .gold-divider .crest-icon { color: var(--gold-primary); font-size: 1.1rem; }
+
+    /* Buttons */
+    .gold-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: var(--gold-gradient); color: #0b0b0b; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 32px; border-radius: 4px; box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3); }
+    .gold-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 175, 55, 0.55); }
+    .gold-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid var(--gold-primary); color: var(--gold-light); background: rgba(212, 175, 55, 0.04); font-weight: 600; font-size: 0.92rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 28px; border-radius: 4px; }
+    .gold-btn-outline:hover { background: rgba(212, 175, 55, 0.18); border-color: var(--gold-bright); color: #fff; box-shadow: 0 0 20px rgba(212, 175, 55, 0.25); transform: translateY(-2px); }
+    .wa-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, #25d366, #128c7e); color: #fff; font-weight: 600; font-size: 0.92rem; padding: 12px 24px; border-radius: 4px; box-shadow: 0 4px 18px rgba(37, 211, 102, 0.3); }
+    .wa-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5); }
+
+    /* Header */
+    .luxury-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background: rgba(8, 8, 8, 0.85); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(212, 175, 55, 0.15); transition: var(--transition-smooth); }
+    .luxury-header.scrolled { background: rgba(8, 8, 8, 0.98); border-bottom: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8); }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; height: 85px; }
+    .brand-logo-wrap { display: flex; align-items: center; gap: 14px; }
+    .logo-crest { width: 48px; height: 48px; border-radius: 50%; border: 1.5px solid var(--gold-primary); display: flex; align-items: center; justify-content: center; background: radial-gradient(circle, rgba(212, 175, 55, 0.2) 0%, rgba(10, 10, 10, 0.9) 80%); box-shadow: var(--gold-glow); }
+    .crest-letters { font-family: var(--font-serif-royal); font-weight: 900; font-size: 1.15rem; color: var(--gold-bright); }
+    .brand-text-block { display: flex; flex-direction: column; }
+    .brand-name { font-family: var(--font-serif-royal); font-size: 1.55rem; font-weight: 800; letter-spacing: 0.12em; line-height: 1.1; background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .brand-sub { font-size: 0.68rem; letter-spacing: 0.28em; color: #c7b280; text-transform: uppercase; }
+    .luxury-nav-menu { display: flex; align-items: center; gap: 32px; }
+    .nav-link { font-family: var(--font-serif-royal); font-size: 0.88rem; letter-spacing: 0.15em; text-transform: uppercase; color: #d1cfc7; font-weight: 500; position: relative; padding: 6px 0; }
+    .nav-link::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 0; height: 1.5px; background: var(--gold-gradient); transition: width 0.3s ease; }
+    .nav-link:hover, .nav-link.active { color: var(--gold-bright); }
+    .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+    .header-actions { display: flex; align-items: center; gap: 16px; }
+    .header-wa-link { display: flex; align-items: center; gap: 8px; background: rgba(37, 211, 102, 0.1); border: 1px solid rgba(37, 211, 102, 0.4); color: #25d366; padding: 8px 16px; border-radius: 30px; font-size: 0.82rem; font-weight: 600; }
+    .header-wa-link:hover { background: var(--wa-green); color: #fff; }
+    .header-cart-icon-btn { position: relative; width: 42px; height: 42px; border-radius: 50%; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); display: flex; align-items: center; justify-content: center; color: var(--gold-primary); }
+    .cart-count-badge { position: absolute; top: -4px; right: -4px; background: var(--gold-gradient); color: #0b0b0b; font-size: 0.7rem; font-weight: 800; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+    .mobile-menu-btn { display: none; flex-direction: column; gap: 6px; padding: 8px; }
+    .mobile-menu-btn span { display: block; width: 24px; height: 2px; background: var(--gold-primary); }
+
+    /* Hero */
+    .hero-section { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 120px 0 60px; background: radial-gradient(circle at 50% 35%, rgba(45, 34, 12, 0.45) 0%, rgba(6, 6, 6, 0.98) 75%); overflow: hidden; }
+    #hero-particles-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
+    .hero-glow-orb { position: absolute; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%); filter: blur(60px); pointer-events: none; }
+    .orb-left { top: 20%; left: -100px; } .orb-right { bottom: 10%; right: -100px; }
+    .hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; position: relative; z-index: 2; }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 10px; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); padding: 6px 18px; border-radius: 30px; font-size: 0.82rem; letter-spacing: 0.2em; color: var(--gold-light); text-transform: uppercase; margin-bottom: 24px; }
+    .hero-title { font-size: 3.6rem; line-height: 1.15; font-weight: 700; margin-bottom: 22px; }
+    .hero-title span.luxury-script { font-family: var(--font-serif-body); font-style: italic; font-weight: 400; color: var(--gold-light); }
+    .hero-description { font-size: 1.12rem; line-height: 1.7; color: #b5b2aa; margin-bottom: 35px; }
+    .hero-cta-group { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 45px; }
+    .hero-stats-row { display: flex; align-items: center; gap: 36px; padding-top: 25px; border-top: 1px solid rgba(212, 175, 55, 0.15); }
+    .stat-val { font-family: var(--font-serif-royal); font-size: 1.6rem; font-weight: 800; color: var(--gold-bright); }
+    .stat-label { font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: #8c887e; }
+    .hero-perfume-frame { position: relative; width: 100%; max-width: 420px; height: 500px; border-radius: 16px; overflow: hidden; border: 1px solid var(--border-gold); background: var(--bg-glass-card); box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9), var(--gold-glow); }
+    .hero-perfume-frame img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-bottle-badge { position: absolute; top: 20px; right: 20px; background: rgba(10, 10, 10, 0.85); border: 1px solid var(--gold-primary); color: var(--gold-bright); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; }
+    .hero-card-bottom-info { position: absolute; bottom: 0; left: 0; width: 100%; padding: 24px; background: linear-gradient(0deg, rgba(6, 6, 6, 0.95) 0%, rgba(6, 6, 6, 0.4) 70%, transparent 100%); display: flex; justify-content: space-between; align-items: flex-end; }
+    .hero-card-name { font-size: 1.3rem; font-weight: 700; color: #fff; }
+    .hero-card-notes { font-size: 0.82rem; color: var(--gold-light); }
+    .hero-card-price { font-family: var(--font-serif-royal); font-size: 1.3rem; font-weight: 800; color: var(--gold-bright); }
+    .floating-accent-pill { position: absolute; left: -20px; bottom: 60px; background: rgba(14, 14, 14, 0.9); border: 1px solid var(--gold-primary); padding: 12px 20px; border-radius: 12px; display: flex; align-items: center; gap: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8); z-index: 3; }
+
+    /* About */
+    .about-section { padding: 120px 0; background: linear-gradient(180deg, var(--bg-pure-black) 0%, var(--bg-secondary) 50%, var(--bg-pure-black) 100%); }
+    .about-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 60px; align-items: center; }
+    .about-img-main { width: 100%; height: 480px; border-radius: 12px; object-fit: cover; border: 1px solid var(--border-gold); box-shadow: var(--shadow-luxury); }
+    .about-experience-card { position: absolute; bottom: -30px; right: -25px; background: rgba(12, 12, 12, 0.95); border: 1.5px solid var(--gold-primary); padding: 24px; border-radius: 12px; max-width: 230px; text-align: center; }
+    .about-exp-num { font-family: var(--font-serif-royal); font-size: 2.2rem; font-weight: 800; color: var(--gold-bright); }
+    .about-arabic-quote { font-family: var(--font-arabic); font-size: 1.6rem; color: var(--gold-light); margin-bottom: 18px; direction: rtl; text-align: right; }
+    .about-title { font-size: 2.4rem; margin-bottom: 20px; }
+    .about-body-text { font-size: 1.05rem; line-height: 1.8; color: #bfbcb2; margin-bottom: 28px; }
+    .about-features-list { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 35px; }
+    .about-feature-item { display: flex; align-items: flex-start; gap: 12px; }
+    .feat-icon-wrap { width: 36px; height: 36px; border-radius: 50%; background: rgba(212, 175, 55, 0.12); border: 1px solid var(--border-gold); display: flex; align-items: center; justify-content: center; color: var(--gold-bright); flex-shrink: 0; }
+    .feat-text h5 { font-size: 0.95rem; font-weight: 700; color: #fff; }
+
+    /* Craft */
+    .craft-section { padding: 100px 0; background: #090909; border-top: 1px solid rgba(212, 175, 55, 0.1); border-bottom: 1px solid rgba(212, 175, 55, 0.1); }
+    .pyramid-showcase-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .note-tier-card { background: rgba(18, 18, 18, 0.7); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 12px; padding: 32px 24px; text-align: center; transition: var(--transition-smooth); }
+    .note-tier-card:hover { transform: translateY(-6px); border-color: var(--gold-bright); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8), var(--gold-glow); }
+    .note-tier-icon { font-size: 2.4rem; margin-bottom: 16px; color: var(--gold-bright); }
+    .note-tier-title { font-size: 1.3rem; margin-bottom: 8px; }
+    .note-tier-timing { font-size: 0.82rem; color: var(--gold-primary); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 16px; display: block; }
+    .note-sample-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+    .note-sample-tags span { background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.25); color: var(--gold-light); font-size: 0.75rem; padding: 4px 10px; border-radius: 14px; }
+
+    /* Collection */
+    .collection-section { padding: 120px 0; background: var(--bg-pure-black); }
+    .catalog-controls { display: flex; flex-direction: column; align-items: center; gap: 24px; margin-bottom: 45px; }
+    .category-tabs-wrap { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .category-tab-btn { background: rgba(20, 20, 20, 0.8); border: 1px solid rgba(212, 175, 55, 0.2); color: #c9c5ba; font-family: var(--font-serif-royal); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 10px 22px; border-radius: 30px; }
+    .category-tab-btn:hover, .category-tab-btn.active { background: var(--gold-gradient); color: #0b0b0b; font-weight: 700; border-color: transparent; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4); }
+    .catalog-search-wrap { position: relative; width: 100%; max-width: 440px; }
+    .catalog-search-wrap input { width: 100%; background: rgba(18, 18, 18, 0.8); border: 1px solid rgba(212, 175, 55, 0.25); padding: 12px 18px 12px 44px; border-radius: 25px; color: #fff; outline: none; }
+    .catalog-search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--gold-primary); }
+    .products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 32px; }
+    .product-card { background: var(--bg-glass-card); border: 1px solid rgba(212, 175, 55, 0.18); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; transition: var(--transition-smooth); position: relative; }
+    .product-card:hover { transform: translateY(-8px); border-color: rgba(212, 175, 55, 0.55); box-shadow: 0 20px 45px rgba(0, 0, 0, 0.9), 0 0 20px rgba(212, 175, 55, 0.18); }
+    .product-badge-wrap { position: absolute; top: 14px; left: 14px; right: 14px; display: flex; justify-content: space-between; align-items: center; z-index: 5; pointer-events: none; }
+    .gold-badge { background: var(--gold-gradient); color: #0b0b0b; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; }
+    .gender-badge { background: rgba(10, 10, 10, 0.75); border: 1px solid rgba(255, 255, 255, 0.15); color: #d1cfc7; font-size: 0.68rem; padding: 4px 8px; border-radius: 14px; }
+    .product-image-container { width: 100%; height: 280px; position: relative; overflow: hidden; background: #0d0d0d; cursor: pointer; }
+    .product-image { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1); }
+    .product-card:hover .product-image { transform: scale(1.08); }
+    .product-details { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; }
+    .product-rating-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .stars-gold { color: #ffd700; font-size: 0.85rem; letter-spacing: 2px; }
+    .product-arabic-title { font-family: var(--font-arabic); font-size: 1.05rem; color: var(--gold-muted); }
+    .product-title { font-size: 1.18rem; font-weight: 700; color: #fff; margin-bottom: 6px; cursor: pointer; }
+    .product-tagline { font-size: 0.82rem; color: #9c988e; margin-bottom: 14px; line-height: 1.4; height: 2.8em; overflow: hidden; }
+    .product-notes-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+    .note-chip { background: rgba(212, 175, 55, 0.06); border: 1px solid rgba(212, 175, 55, 0.18); color: #c9b685; font-size: 0.7rem; padding: 3px 8px; border-radius: 12px; }
+    .product-card-footer { margin-top: auto; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.06); display: flex; align-items: center; justify-content: space-between; }
+    .price-current { font-family: var(--font-serif-royal); font-size: 1.25rem; font-weight: 800; color: var(--gold-bright); }
+    .price-original { font-size: 0.78rem; color: #666; text-decoration: line-through; }
+    .product-actions-btn-group { display: flex; align-items: center; gap: 8px; }
+    .add-to-cart-btn { background: var(--gold-gradient); color: #0b0b0b; font-weight: 700; font-size: 0.82rem; padding: 8px 14px; border-radius: 4px; display: flex; align-items: center; gap: 6px; }
+    .direct-wa-btn { background: rgba(37, 211, 102, 0.15); border: 1px solid rgba(37, 211, 102, 0.4); color: var(--wa-green); width: 36px; height: 36px; border-radius: 4px; display: flex; align-items: center; justify-content: center; }
+
+    /* Draggable Floating Cart */
+    .floating-cart-anchor { position: fixed; top: 95px; right: 28px; z-index: 1050; cursor: grab; user-select: none; touch-action: none; }
+    .floating-cart-anchor.is-dragging { cursor: grabbing; opacity: 0.9; transform: scale(1.06); }
+    .floating-cart-capsule { display: flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #141414, #0a0a0a); border: 1.5px solid var(--gold-primary); padding: 10px 18px; border-radius: 35px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9), var(--gold-glow); }
+    .cart-drawer-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(5px); z-index: 1200; opacity: 0; visibility: hidden; transition: opacity 0.4s ease, visibility 0.4s ease; }
+    .cart-drawer-overlay.active { opacity: 1; visibility: visible; }
+    .luxury-cart-drawer { position: fixed; top: 0; right: -100%; width: 100%; max-width: 460px; height: 100%; background: #0f0f0f; border-left: 1px solid var(--border-gold); z-index: 1250; display: flex; flex-direction: column; transition: right 0.45s cubic-bezier(0.25, 1, 0.5, 1); box-shadow: -15px 0 40px rgba(0, 0, 0, 0.9); }
+    .luxury-cart-drawer.active { right: 0; }
+    .cart-drawer-header { padding: 24px; border-bottom: 1px solid rgba(212, 175, 55, 0.2); display: flex; align-items: center; justify-content: space-between; background: #141414; }
+    .cart-items-scroll-area { flex-grow: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px; }
+    .cart-drawer-footer { padding: 20px; background: #141414; border-top: 1px solid rgba(212, 175, 55, 0.2); display: flex; flex-direction: column; gap: 14px; }
+    .cart-item-row { display: flex; gap: 14px; background: #171717; border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 8px; padding: 12px; }
+    .cart-item-img-wrap { width: 70px; height: 70px; border-radius: 6px; overflow: hidden; flex-shrink: 0; }
+    .cart-item-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    .cart-item-info { flex-grow: 1; display: flex; flex-direction: column; }
+    .cart-qty-ctrl { display: flex; align-items: center; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 4px; background: #0d0d0d; }
+    .qty-btn { width: 26px; height: 26px; color: #fff; font-weight: bold; }
+    .qty-num { font-size: 0.85rem; padding: 0 8px; font-weight: 600; }
+    .cart-wa-checkout-btn { width: 100%; background: linear-gradient(135deg, #25d366, #128c7e); color: #fff; font-weight: 700; font-size: 0.95rem; padding: 14px; border-radius: 6px; display: flex; align-items: center; justify-content: center; gap: 10px; }
+
+    /* Modal */
+    .modal-backdrop-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(8px); z-index: 1300; opacity: 0; visibility: hidden; transition: 0.35s ease; }
+    .modal-backdrop-overlay.active { opacity: 1; visibility: visible; }
+    .luxury-modal-container { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -45%); width: 92%; max-width: 900px; max-height: 90vh; overflow-y: auto; background: #111; border: 1.5px solid var(--border-gold); border-radius: 16px; z-index: 1350; padding: 36px; box-shadow: 0 25px 70px rgba(0, 0, 0, 0.95), var(--gold-glow); opacity: 0; visibility: hidden; transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.35s ease; }
+    .luxury-modal-container.active { transform: translate(-50%, -50%); opacity: 1; visibility: visible; }
+    .modal-close-btn { position: absolute; top: 20px; right: 20px; color: #aaa; font-size: 1.8rem; }
+    .qv-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 36px; }
+    .qv-img-wrap { width: 100%; height: 100%; min-height: 380px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border-gold); }
+    .qv-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    .fragrance-pyramid-card { background: #171717; border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+
+    /* Contact */
+    .contact-section { padding: 120px 0 80px; background: linear-gradient(180deg, var(--bg-pure-black) 0%, #12100a 100%); }
+    .contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 50px; }
+    .contact-info-card, .contact-form-wrap { background: var(--bg-glass-card); border: 1px solid var(--border-gold); border-radius: 14px; padding: 36px; box-shadow: var(--shadow-luxury); }
+    .contact-details-list { display: flex; flex-direction: column; gap: 22px; margin-bottom: 35px; }
+    .contact-item { display: flex; align-items: flex-start; gap: 16px; }
+    .c-icon-wrap { width: 44px; height: 44px; border-radius: 50%; background: rgba(212, 175, 55, 0.12); border: 1px solid var(--border-gold); display: flex; align-items: center; justify-content: center; color: var(--gold-bright); flex-shrink: 0; }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold-light); margin-bottom: 8px; }
+    .form-group input, .form-group textarea { width: 100%; background: #0b0b0b; border: 1px solid rgba(212, 175, 55, 0.25); color: #fff; padding: 12px 16px; border-radius: 6px; font-family: inherit; font-size: 0.92rem; outline: none; }
+    .form-group input:focus, .form-group textarea:focus { border-color: var(--gold-bright); box-shadow: 0 0 15px rgba(212, 175, 55, 0.25); }
+
+    /* Footer */
+    .luxury-footer { background: #070707; border-top: 1px solid rgba(212, 175, 55, 0.15); padding: 70px 0 30px; }
+    .footer-top-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 50px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { color: #a8a49a; font-size: 0.88rem; }
+    .footer-links a:hover { color: var(--gold-bright); }
+    .footer-bottom { padding-top: 25px; border-top: 1px solid rgba(255, 255, 255, 0.05); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+
+    /* Toast */
+    .luxury-toast { position: fixed; bottom: 28px; left: 28px; background: rgba(15, 15, 15, 0.95); border: 1.5px solid var(--gold-primary); border-radius: 8px; padding: 14px 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9), var(--gold-glow); z-index: 2000; transform: translateY(120%); opacity: 0; transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s; }
+    .luxury-toast.show { transform: translateY(0); opacity: 1; }
+
+    /* Floating WhatsApp Button */
+    .fixed-whatsapp-launcher { position: fixed; bottom: 28px; left: 28px; z-index: 1040; display: flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #25d366, #128c7e); color: #fff; padding: 12px 20px; border-radius: 35px; box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4); font-size: 0.85rem; font-weight: 700; }
+    .fixed-whatsapp-launcher:hover { transform: translateY(-3px) scale(1.03); }
+
+    /* Chatbot Widget */
+    .chatbot-launcher-wrap { position: fixed; bottom: 28px; right: 28px; z-index: 1100; }
+    .chatbot-toggle-btn { width: 62px; height: 62px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #bf953f 0%, #111 90%); border: 2px solid #ffd700; color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9), 0 0 25px rgba(212, 175, 55, 0.5); cursor: pointer; }
+    .chat-notification-dot { position: absolute; top: 0; right: 0; width: 16px; height: 16px; background: #25d366; border: 2px solid #000; border-radius: 50%; }
+    .chatbot-widget-container { position: fixed; bottom: 102px; right: 28px; width: 380px; max-width: calc(100vw - 40px); height: 560px; max-height: calc(100vh - 130px); background: #0e0e0e; border: 1.5px solid rgba(212, 175, 55, 0.35); border-radius: 16px; z-index: 1100; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.95), 0 0 30px rgba(212, 175, 55, 0.2); transform: translateY(20px) scale(0.95); opacity: 0; visibility: hidden; transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease, visibility 0.3s ease; }
+    .chatbot-widget-container.active { transform: translateY(0) scale(1); opacity: 1; visibility: visible; }
+    .chatbot-header { padding: 16px 20px; background: linear-gradient(135deg, #181611 0%, #0d0d0d 100%); border-bottom: 1px solid rgba(212, 175, 55, 0.2); display: flex; align-items: center; justify-content: space-between; }
+    .chatbot-messages-list { flex-grow: 1; overflow-y: auto; padding: 18px; display: flex; flex-direction: column; gap: 14px; background: #0a0a0a; }
+    .chat-bubble-row { display: flex; gap: 10px; align-items: flex-end; }
+    .user-bubble-row { justify-content: flex-end; }
+    .bot-avatar-gold { width: 28px; height: 28px; border-radius: 50%; background: #1e1b13; border: 1px solid #d4af37; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; }
+    .chat-bubble { max-width: 82%; padding: 12px 16px; border-radius: 14px; font-size: 0.88rem; line-height: 1.5; }
+    .bot-bubble { background: #161616; border: 1px solid rgba(212, 175, 55, 0.2); color: #ebe7de; }
+    .user-bubble { background: linear-gradient(135deg, #2a2211, #1e180c); border: 1px solid rgba(212, 175, 55, 0.4); color: #fff; }
+    .chat-suggestions-wrap { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .chat-suggestion-chip { background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); color: #f0e2be; font-size: 0.76rem; padding: 5px 10px; border-radius: 12px; cursor: pointer; }
+    .chat-suggestion-chip:hover { background: var(--gold-gradient); color: #0b0b0b; font-weight: 600; }
+    .chatbot-input-footer { padding: 12px 16px; background: #141414; border-top: 1px solid rgba(212, 175, 55, 0.2); display: flex; align-items: center; gap: 8px; }
+    .chatbot-input-field { flex-grow: 1; background: #080808; border: 1px solid rgba(212, 175, 55, 0.25); color: #fff; padding: 10px 14px; border-radius: 20px; font-size: 0.85rem; outline: none; font-family: inherit; }
+    .chatbot-send-btn { width: 38px; height: 38px; border-radius: 50%; background: var(--gold-gradient); color: #0b0b0b; display: flex; align-items: center; justify-content: center; }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .hero-grid, .about-grid, .contact-grid, .qv-grid { grid-template-columns: 1fr; gap: 40px; }
+      .pyramid-showcase-grid, .footer-top-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      .luxury-nav-menu { position: fixed; top: 85px; right: -100%; width: 280px; height: calc(100vh - 85px); background: #0e0e0e; border-left: 1px solid var(--border-gold); flex-direction: column; align-items: flex-start; padding: 30px 24px; gap: 20px; transition: right 0.4s ease; }
+      .luxury-nav-menu.active { right: 0; }
+      .mobile-menu-btn { display: flex; }
+      .hero-title { font-size: 2.5rem; }
+      .section-title { font-size: 2.1rem; }
+      .header-wa-link span, .fixed-whatsapp-launcher span { display: none; }
+      .about-features-list, .footer-top-grid, .pyramid-showcase-grid { grid-template-columns: 1fr; }
+      .fixed-whatsapp-launcher { padding: 14px; border-radius: 50%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. HEADER -->
+  <header class="luxury-header" id="luxury-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo-wrap">
+        <div class="logo-crest"><span class="crest-letters">AR</span></div>
+        <div class="brand-text-block">
+          <span class="brand-name">AR PERFUMES</span>
+          <span class="brand-sub">Haute Parfumerie • Lahore</span>
+        </div>
+      </a>
+
+      <nav class="luxury-nav-menu" id="luxury-nav-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Brand</a>
+        <a href="#craft" class="nav-link">Notes Pyramid</a>
+        <a href="#collection" class="nav-link">Royal Collection</a>
+        <a href="#contact" class="nav-link">Boutique & Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/923088367974?text=Hello%20AR%20Perfumes,%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20collection." target="_blank" class="header-wa-link" title="Chat on WhatsApp">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span>03088367974</span>
+        </a>
+
+        <button class="header-cart-icon-btn open-cart-drawer-btn" title="View Royal Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+          <span class="cart-count-badge" style="display: none;">0</span>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. DRAGGABLE FLOATING CART -->
+  <div class="floating-cart-anchor" id="floating-cart-btn" title="Drag me anywhere or Click to open Cart!">
+    <div class="floating-cart-capsule">
+      <div class="cart-capsule-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        <span class="cart-count-badge" style="display: none;">0</span>
+      </div>
+      <div class="cart-capsule-text">
+        <span class="cart-cap-title" style="font-size: 0.78rem; font-weight: 700; color: #fff;">Royal Bag</span>
+        <span class="cart-cap-sub" style="font-size: 0.65rem; color: var(--gold-light);">Drag • Click</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <aside class="luxury-cart-drawer" id="luxury-cart-drawer">
+    <div class="cart-drawer-header">
+      <h3 class="cart-header-title"><span>⚜</span> Your Royal Selection</h3>
+      <button class="close-drawer-btn" id="close-cart-drawer-btn" style="color:#aaa; font-size:1.5rem;">&times;</button>
+    </div>
+
+    <div class="cart-items-scroll-area">
+      <div class="cart-empty-box" id="cart-empty-state" style="text-align: center; padding: 40px 20px;">
+        <span style="font-size: 3.5rem; color: var(--gold-muted); display:block; margin-bottom:16px;">👑</span>
+        <h4 style="color: #fff; margin-bottom: 8px;">Your Bag is Empty</h4>
+        <p style="font-size: 0.85rem;">Discover our signature Extraits de Parfum & Attars and add your favorites.</p>
+        <a href="#collection" class="gold-btn-outline" style="margin-top: 18px;" onclick="window.cartInstance.closeDrawer()">Explore Fragrances</a>
+      </div>
+      <div id="cart-items-container"></div>
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div style="display: flex; gap: 8px;">
+        <input type="text" id="cart-promo-input" placeholder="Promo Code (e.g. ROYAL10)" style="flex-grow: 1; background: #0b0b0b; border: 1px solid rgba(212, 175, 55, 0.25); color: #fff; padding: 8px 12px; border-radius: 4px; font-size: 0.82rem; text-transform: uppercase;" />
+        <button id="apply-promo-btn" style="background: rgba(212, 175, 55, 0.2); border: 1px solid var(--gold-primary); color: var(--gold-bright); font-size: 0.78rem; font-weight: 600; padding: 8px 14px; border-radius: 4px;">Apply</button>
+      </div>
+      <span id="promo-status-msg" style="font-size:0.75rem;"></span>
+
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <input type="text" id="checkout-cust-name" placeholder="Your Full Name" style="background:#0b0b0b; border:1px solid rgba(255,255,255,0.1); color:#fff; padding:8px 12px; border-radius:4px; font-size:0.82rem;" />
+        <input type="text" id="checkout-cust-city" placeholder="City / Area (e.g. Lahore, Gulberg)" style="background:#0b0b0b; border:1px solid rgba(255,255,255,0.1); color:#fff; padding:8px 12px; border-radius:4px; font-size:0.82rem;" />
+        <input type="text" id="checkout-cust-address" placeholder="Delivery Address or Store Pickup" style="background:#0b0b0b; border:1px solid rgba(255,255,255,0.1); color:#fff; padding:8px 12px; border-radius:4px; font-size:0.82rem;" />
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 6px; padding: 10px 0; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+        <div style="display:flex; justify-content:space-between; font-size:0.88rem; color:#a8a8a8;">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal-price">Rs. 0</span>
+        </div>
+        <div id="cart-discount-row" style="display:none; justify-content:space-between; font-size:0.88rem; color:#25d366;">
+          <span>Discount:</span>
+          <span id="cart-discount-value">- Rs. 0</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:1.15rem; font-weight:800; color:#fff; padding-top:6px; border-top:1px dashed rgba(212,175,55,0.3);">
+          <span>Grand Total:</span>
+          <span id="cart-total-price" style="color:var(--gold-bright); font-family:var(--font-serif-royal);">Rs. 0</span>
+        </div>
+      </div>
+
+      <button class="cart-wa-checkout-btn" id="cart-whatsapp-checkout-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+        <span>Proceed to WhatsApp Checkout</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- 3. HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <canvas id="hero-particles-canvas"></canvas>
+    <div class="hero-glow-orb orb-left"></div>
+    <div class="hero-glow-orb orb-right"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow"><span>⚜</span><span>Haute Parfumerie & Artisanal Attars</span></div>
+        <h1 class="hero-title">
+          Essence of <span class="gold-gradient-text">Royal Luxury</span>,<br />
+          Crafted for <span class="luxury-script">Distinction</span>.
+        </h1>
+        <p class="hero-description">
+          Step into a world of peerless Arabian & French olfactory artistry. Hand-blended in Lahore with 35%+ pure concentrated oils, our fragrances create an unforgettable trail of prestige and lasting sillage.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#collection" class="gold-btn">
+            <span>Explore Collection</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="https://wa.me/923088367974?text=Hello%20AR%20Perfumes,%20I%20would%20like%20to%20order%20directly%20or%20consult%20with%20your%20perfumer." target="_blank" class="gold-btn-outline">
+            <span>Order via WhatsApp</span>
+          </a>
+        </div>
+        <div class="hero-stats-row">
+          <div class="hero-stat-item"><span class="stat-val">24h+</span><span class="stat-label">Lasting Sillage</span></div>
+          <div class="hero-stat-item"><span class="stat-val">35%</span><span class="stat-label">Extrait Essence</span></div>
+          <div class="hero-stat-item"><span class="stat-val">100%</span><span class="stat-label">Pure Natural Oils</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual-card" style="position:relative; display:flex; justify-content:center;">
+        <div class="hero-perfume-frame">
+          <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80" alt="Royal Oud Al-Malaki - AR Perfumes" />
+          <div class="hero-bottle-badge">Flagship Signature</div>
+          <div class="hero-card-bottom-info">
+            <div>
+              <h4 class="hero-card-name">Royal Oud Al-Malaki</h4>
+              <p class="hero-card-notes">Cambodian Agarwood • Taif Rose • Amber</p>
+            </div>
+            <span class="hero-card-price">Rs. 6,500</span>
+          </div>
+        </div>
+        <div class="floating-accent-pill">
+          <span style="font-size: 1.4rem; color: var(--gold-bright);">👑</span>
+          <div>
+            <h5 style="font-size:0.85rem; font-weight:700; color:#fff;">Handcrafted in Lahore</h5>
+            <p style="font-size:0.72rem; color:var(--gold-light);">Main Ichra Bazar Boutique</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ABOUT BRAND -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=800&q=80" alt="AR Perfumes Craftsmanship" class="about-img-main" loading="lazy" />
+        <div class="about-experience-card">
+          <div class="about-exp-num">100%</div>
+          <div style="font-size:0.8rem; color:#c4c0b4; margin-top:6px;">Pure Unadulterated Concentrated Perfume Oils</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-subtitle">The Legacy of AR Perfumes</div>
+        <div class="about-arabic-quote">« الفخامة والأصالة في كل قطرة »</div>
+        <h2 class="about-title">Artisanal Perfumery Born in the Heart of Lahore</h2>
+        <p class="about-body-text">
+          Located in historical <strong>Main Ichra Bazar, Lahore</strong>, <strong>AR Perfumes</strong> was founded with a singular dedication: to craft unforgettable sensory signatures that evoke royal prestige and timeless elegance.
+        </p>
+        <p class="about-body-text">
+          Every flacon is precision-compounded using aged Cambodian & Hindi Oud, rare Turkish roses, Tuscan leather notes, and crystal ambergris. Whether you seek non-alcoholic Attars for sacred devotion or modern Extraits de Parfum that command boardroom presence, AR Perfumes is your sanctuary of fine scent.
+        </p>
+        <div class="about-features-list">
+          <div class="about-feature-item"><div class="feat-icon-wrap">⚜</div><div class="feat-text"><h5>35% Extrait Concentration</h5><p style="font-size:0.8rem; color:#999;">Significantly richer than standard commercial EDTs.</p></div></div>
+          <div class="about-feature-item"><div class="feat-icon-wrap">🕌</div><div class="feat-text"><h5>Pure Non-Alcoholic Attars</h5><p style="font-size:0.8rem; color:#999;">100% pure perfume oils suitable for prayers.</p></div></div>
+          <div class="about-feature-item"><div class="feat-icon-wrap">🚚</div><div class="feat-text"><h5>Lahore & Nationwide Delivery</h5><p style="font-size:0.8rem; color:#999;">Cash on Delivery across Pakistan with express tracking.</p></div></div>
+          <div class="about-feature-item"><div class="feat-icon-wrap">💎</div><div class="feat-text"><h5>Direct Master Perfumer Line</h5><p style="font-size:0.8rem; color:#999;">Instant consultation on WhatsApp at 03088367974.</p></div></div>
+        </div>
+        <a href="#collection" class="gold-btn"><span>Discover Our Fragrances</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. NOTES PYRAMID -->
+  <section class="craft-section" id="craft">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Olfactory Architecture</span>
+        <h2 class="section-title">The Three Tiers of Pure Scent Evolution</h2>
+        <p class="section-desc">Understand how our handcrafted Extraits evolve dynamically on your skin throughout the day and night.</p>
+        <div class="gold-divider"><span class="line"></span><span class="crest-icon">⚜</span><span class="line"></span></div>
+      </div>
+      <div class="pyramid-showcase-grid">
+        <div class="note-tier-card">
+          <div class="note-tier-icon">✨</div>
+          <h3 class="note-tier-title">Top Notes</h3>
+          <span class="note-tier-timing">First 15 – 30 Minutes</span>
+          <p style="font-size:0.9rem; color:#a8a49a; margin-bottom:18px;">The luminous initial burst of volatile citrus, sparkling berries, and precious saffron threads.</p>
+          <div class="note-sample-tags"><span>Kashmiri Saffron</span><span>Calabrian Bergamot</span><span>Taif Rose Zest</span></div>
+        </div>
+        <div class="note-tier-card">
+          <div class="note-tier-icon">🌹</div>
+          <h3 class="note-tier-title">Heart Notes</h3>
+          <span class="note-tier-timing">2 Hours – 8 Hours</span>
+          <p style="font-size:0.9rem; color:#a8a49a; margin-bottom:18px;">The true soul of the fragrance. Rich floral bouquets, velvety spices, and smooth woods.</p>
+          <div class="note-sample-tags"><span>Black Orchid</span><span>Damascus Rose</span><span>Cambodian Agarwood</span></div>
+        </div>
+        <div class="note-tier-card">
+          <div class="note-tier-icon">👑</div>
+          <h3 class="note-tier-title">Base Notes</h3>
+          <span class="note-tier-timing">12 Hours – 48+ Hours</span>
+          <p style="font-size:0.9rem; color:#a8a49a; margin-bottom:18px;">The heavy, resonant molecules that bond with skin & textiles, radiating warmth for days.</p>
+          <div class="note-sample-tags"><span>Smoked Amber</span><span>Royal Musk</span><span>Madagascar Vanilla</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. PRODUCT CATALOG -->
+  <section class="collection-section" id="collection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Royal Treasury</span>
+        <h2 class="section-title">Explore Our Signature Collection</h2>
+        <p class="section-desc">Hand-bottled in luxury glass flacons with metallic gold seals. Select any fragrance to inspect its note breakdown or order directly via WhatsApp.</p>
+        <div class="gold-divider"><span class="line"></span><span class="crest-icon">⚜</span><span class="line"></span></div>
+      </div>
+
+      <div class="catalog-controls">
+        <div class="category-tabs-wrap">
+          <button class="category-tab-btn active" data-category="all">All Masterpieces</button>
+          <button class="category-tab-btn" data-category="oud">Royal Oud</button>
+          <button class="category-tab-btn" data-category="oriental">Oriental & Amber</button>
+          <button class="category-tab-btn" data-category="musk">Pure Musks</button>
+          <button class="category-tab-btn" data-category="floral">French Florals</button>
+          <button class="category-tab-btn" data-category="fresh">Aquatic & Fresh</button>
+          <button class="category-tab-btn" data-category="attar">Concentrated Attars</button>
+        </div>
+
+        <div class="catalog-search-wrap">
+          <svg class="catalog-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="catalog-search-input" placeholder="Search by fragrance name, note (Oud, Rose, Amber)..." />
+        </div>
+      </div>
+
+      <div class="products-grid" id="products-grid-container"></div>
+    </div>
+  </section>
+
+  <!-- 7. QUICK VIEW MODAL -->
+  <div class="modal-backdrop-overlay" id="modal-backdrop-overlay"></div>
+  <div class="luxury-modal-container" id="quick-view-modal">
+    <button class="modal-close-btn" id="close-quick-view-btn" aria-label="Close">&times;</button>
+    <div id="quick-view-modal-content"></div>
+  </div>
+
+  <!-- 8. CONTACT & LOCATION -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Visit Our Boutique</span>
+        <h2 class="section-title">Experience In Person or Order Direct</h2>
+        <p class="section-desc">Have a bespoke fragrance requirement or questions about custom blending? Connect directly with our master perfumers.</p>
+        <div class="gold-divider"><span class="line"></span><span class="crest-icon">⚜</span><span class="line"></span></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3 style="font-size:1.6rem; margin-bottom:12px;">AR Perfumes Flagship</h3>
+          <p style="margin-bottom:28px;">We welcome you to visit our boutique in Ichra Bazar Lahore for private fragrance testing on scent strips and custom flacon refills.</p>
+          <div class="contact-details-list">
+            <div class="contact-item">
+              <div class="c-icon-wrap"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+              <div><h5 style="font-size:0.95rem; font-weight:700; color:#fff;">Shop Location</h5><p style="font-size:0.88rem; color:#b5b2a8;">Main Ichra Bazar, Lahore, Punjab, Pakistan</p></div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon-wrap"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div>
+              <div><h5 style="font-size:0.95rem; font-weight:700; color:#fff;">Direct Call & WhatsApp</h5><p style="font-size:0.88rem;"><a href="tel:03088367974" style="color:var(--gold-light);">03088367974</a> / <a href="https://wa.me/923088367974" target="_blank" style="color:var(--gold-light);">+92 308 8367974</a></p></div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon-wrap"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+              <div><h5 style="font-size:0.95rem; font-weight:700; color:#fff;">Boutique Hours</h5><p style="font-size:0.88rem; color:#b5b2a8;">Monday – Sunday: 11:00 AM – 11:00 PM</p></div>
+            </div>
+          </div>
+          <a href="https://wa.me/923088367974?text=Hello%20AR%20Perfumes,%20I%20am%20visiting%20your%20Ichra%20Bazar%20store%20and%20need%20directions." target="_blank" class="wa-btn" style="width: 100%;"><span>Chat Live with Store on WhatsApp</span></a>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h3 style="margin-bottom: 8px;">Send a Direct Message</h3>
+          <p style="margin-bottom: 24px;">Submit your inquiry below and we will automatically forward it to our WhatsApp helpline.</p>
+          <form id="luxury-contact-form">
+            <div class="form-group"><label for="contact-name">Your Full Name</label><input type="text" id="contact-name" placeholder="e.g. Ali Raza" required /></div>
+            <div class="form-group"><label for="contact-phone">Phone / WhatsApp Number</label><input type="tel" id="contact-phone" placeholder="e.g. 0300 1234567" required /></div>
+            <div class="form-group"><label for="contact-message">Fragrance Preference or Inquiry</label><textarea id="contact-message" rows="4" placeholder="Tell us about the scent notes you love..." required></textarea></div>
+            <button type="submit" class="gold-btn" style="width: 100%;"><span>Send Message to WhatsApp</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="luxury-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <div class="brand-logo-wrap"><div class="logo-crest"><span class="crest-letters">AR</span></div><div><span class="brand-name">AR PERFUMES</span></div></div>
+          <p style="margin-top:16px; font-size:0.88rem; color:#8c887e;">Handcrafting royal scents with 35% pure Extrait concentration and aged Agarwood oils in Main Ichra Bazar Lahore.</p>
+        </div>
+        <div>
+          <h4 style="color:var(--gold-bright); margin-bottom:20px;">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Brand</a></li>
+            <li><a href="#craft">Notes Pyramid</a></li>
+            <li><a href="#collection">Royal Collection</a></li>
+            <li><a href="#contact">Contact & Store</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:var(--gold-bright); margin-bottom:20px;">Best Sellers</h4>
+          <ul class="footer-links">
+            <li><a href="#collection" onclick="openQuickViewModal('arp-001')">Royal Oud Al-Malaki</a></li>
+            <li><a href="#collection" onclick="openQuickViewModal('arp-002')">Lahore Velvet Noir</a></li>
+            <li><a href="#collection" onclick="openQuickViewModal('arp-003')">Imperial White Musk</a></li>
+            <li><a href="#collection" onclick="openQuickViewModal('arp-007')">Dehn Al Oud Hindi</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:var(--gold-bright); margin-bottom:20px;">Store Details</h4>
+          <ul class="footer-links" style="color: #999; font-size: 0.86rem; line-height: 1.6;">
+            <li>📍 Main Ichra Bazar, Lahore</li>
+            <li>📞 <a href="tel:03088367974" style="color: var(--gold-light);">03088367974</a></li>
+            <li>💬 WhatsApp: +92 308 8367974</li>
+            <li>⏰ Open 7 Days (11 AM - 11 PM)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p style="font-size:0.82rem; color:#666;">© 2026 AR Perfumes. All Rights Reserved.</p>
+        <p style="font-size:0.82rem; color:var(--gold-muted);">Main Ichra Bazar • Lahore, Pakistan</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 10. FIXED WHATSAPP BUTTON (Bottom-Left) -->
+  <a href="https://wa.me/923088367974?text=Hello%20AR%20Perfumes,%20I%20am%20visiting%20your%20website%20and%20would%20like%20to%20place%20an%20order." target="_blank" class="fixed-whatsapp-launcher" title="Chat on WhatsApp (03088367974)">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+    <span>WhatsApp Order: 03088367974</span>
+  </a>
+
+  <!-- 11. SMART CHATBOT WIDGET -->
+  <div class="chatbot-launcher-wrap">
+    <button class="chatbot-toggle-btn" id="chatbot-toggle-btn" title="Chat with Aura - Fragrance AI">
+      <span class="chat-notification-dot"></span>
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    </button>
+  </div>
+
+  <div class="chatbot-widget-container" id="chatbot-widget-container">
+    <div class="chatbot-header">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div class="bot-avatar-gold" style="width:36px; height:36px; font-size:1.1rem;">👑</div>
+        <div>
+          <h4 style="font-size:0.95rem; font-weight:700; color:#fff;">Aura • AR Fragrance AI</h4>
+          <div style="display:flex; align-items:center; gap:6px; font-size:0.72rem; color:#c9b685;"><span style="width:7px; height:7px; border-radius:50%; background:#25d366;"></span><span>Online | Master Advisor</span></div>
+        </div>
+      </div>
+      <button id="chatbot-close-btn" style="color:#999; font-size:1.2rem;">&times;</button>
+    </div>
+    <div class="chatbot-messages-list" id="chatbot-messages-list"></div>
+    <div class="chatbot-input-footer">
+      <input type="text" id="chatbot-input-field" class="chatbot-input-field" placeholder="Ask Aura about scents, notes, prices..." />
+      <button id="chatbot-send-btn" class="chatbot-send-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></button>
+    </div>
+  </div>
+
+  <!-- JavaScript Application -->
+  <script>
+    // Product Catalog Data
+    const PRODUCTS_DATA = [
+      { id: "arp-001", name: "Royal Oud Al-Malaki", arabicName: "العود الملكي", tagline: "The Crown Jewel of Arabian Prestige", category: "oud", badge: "Bestseller", price: 6500, originalPrice: 8500, size: "100ml / 3.4 oz", concentration: "Extrait de Parfum (35%)", longevity: "24+ Hours", sillage: "Enormous", gender: "Unisex", rating: 4.9, reviewsCount: 148, image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80", description: "An opulent blend of authentic Cambodian Agarwood, aged smoked amber, and Taif rose. Handcrafted to deliver a majestic royal aura.", notes: { top: ["Taif Rose", "Saffron", "Bergamot Zest"], heart: ["Cambodian Oud", "Smoked Amber", "Patchouli"], base: ["Sandalwood", "Royal Musk", "Vanilla Bourbon"] } },
+      { id: "arp-002", name: "Lahore Velvet Noir", arabicName: "مخمل نوار", tagline: "Warm Nights, Exotic Spices & Seduction", category: "oriental", badge: "Limited Edition", price: 5200, originalPrice: 6800, size: "100ml / 3.4 oz", concentration: "Eau de Parfum", longevity: "18+ Hours", sillage: "Strong", gender: "Unisex", rating: 4.8, reviewsCount: 96, image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80", description: "Inspired by the poetic mystique of Lahore heritage, combining rich velvety leather, roasted cardamom, and tonka bean.", notes: { top: ["Black Cardamom", "Cinnamon Bark", "Pink Pepper"], heart: ["Night Jasmine", "Black Orchid", "Velvet Leather"], base: ["Tonka Bean", "Golden Amber", "Cedarwood"] } },
+      { id: "arp-003", name: "Imperial White Musk", arabicName: "المسك الأبيض الملكي", tagline: "Pure Sophistication & Heavenly Clean Scent", category: "musk", badge: "Customer Favorite", price: 4800, originalPrice: 5900, size: "100ml / 3.4 oz", concentration: "Extrait de Parfum", longevity: "16+ Hours", sillage: "Intimate & Radiant", gender: "Unisex", rating: 5.0, reviewsCount: 210, image: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80", description: "The epitome of clean luxury. A silky, crystalline white musk enriched with powdery iris and sweet vanilla.", notes: { top: ["White Freesia", "Lily of the Valley", "Peach Nectar"], heart: ["Florentine Iris", "Powdery White Musk", "Ylang-Ylang"], base: ["Pure Ambergris", "Madagascar Vanilla", "Cashmere Wood"] } },
+      { id: "arp-004", name: "Sultan's Golden Amber", arabicName: "عنبر السلطان الذهبي", tagline: "Rich Warmth Dripping in 24K Liquid Gold", category: "oriental", badge: "Signature", price: 5900, originalPrice: 7200, size: "100ml / 3.4 oz", concentration: "Eau de Parfum Intense", longevity: "20+ Hours", sillage: "Heavy", gender: "Men", rating: 4.9, reviewsCount: 112, image: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80", description: "A commanding masculine masterpiece. Warm amber crystallized with honeyed tobacco and nutmeg spice.", notes: { top: ["Cuban Tobacco Leaf", "Golden Honey", "Nutmeg"], heart: ["Amber Crystals", "Guaiac Wood", "Cacao"], base: ["Benzoin Resin", "Vetiver", "Dark Oakmoss"] } },
+      { id: "arp-005", name: "Aura Rose Sublime", arabicName: "ورد سبلايم", tagline: "A Modern Floral Symphony of French Petals", category: "floral", badge: "Trending", price: 4500, originalPrice: 5800, size: "100ml / 3.4 oz", concentration: "Eau de Parfum", longevity: "14+ Hours", sillage: "Moderate to Strong", gender: "Women", rating: 4.8, reviewsCount: 84, image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80", description: "An intoxicating bouquet of Damascena roses, sparkling Turkish peony, and radiant musk.", notes: { top: ["Lychee Fruit", "Italian Mandarin", "Bergamot"], heart: ["Damascus Rose", "Pink Peony", "Magnolia Petals"], base: ["White Musk", "Cedar", "Sunlit Amber"] } },
+      { id: "arp-006", name: "Aquatic Mirage", arabicName: "السراب المائي", tagline: "Crisp Ocean Breeze with Sun-Kissed Woods", category: "fresh", badge: "Summer Must-Have", price: 4200, originalPrice: 5500, size: "100ml / 3.4 oz", concentration: "Eau de Parfum", longevity: "12+ Hours", sillage: "Moderate", gender: "Men", rating: 4.7, reviewsCount: 73, image: "https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?auto=format&fit=crop&w=800&q=80", description: "Ultra-fresh opening of Calabrian bergamot and aquatic marine accords, anchored by clean ambergris.", notes: { top: ["Calabrian Bergamot", "Sea Breeze Marine", "Grapefruit"], heart: ["Rosemary", "Sage", "Geranium"], base: ["Ambroxan", "Mineral Woods", "Patchouli"] } },
+      { id: "arp-007", name: "Dehn Al Oud Hindi (Special Attar)", arabicName: "دهن العود الهندي الفاخر", tagline: "Pure Concentrated Oil - Aged 12 Years", category: "attar", badge: "100% Pure Oil", price: 7800, originalPrice: 9900, size: "12ml (1 Tola) Crystal Flacon", concentration: "100% Pure Non-Alcoholic Oil", longevity: "48+ Hours", sillage: "Enormous", gender: "Unisex", rating: 5.0, reviewsCount: 164, image: "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=800&q=80", description: "Extracted from vintage Indian Aquilaria trees. Deeply woody, leathery, balsamic, and spiritual.", notes: { top: ["Aged Leather", "Wild Spices"], heart: ["Dense Hindi Agarwood", "Smoked Resin"], base: ["Earthy Musk", "Balsamic Wood", "Incense"] } },
+      { id: "arp-008", name: "Mukhallat AR Royal (Attar)", arabicName: "مخلط ايه ار الملكي", tagline: "Proprietary Blend of Saffron, Rose & Musk", category: "attar", badge: "House Signature", price: 4900, originalPrice: 6200, size: "12ml (1 Tola) Royal Bottle", concentration: "100% Pure Perfume Oil", longevity: "36+ Hours", sillage: "Strong", gender: "Unisex", rating: 4.9, reviewsCount: 135, image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=800&q=80", description: "The pride of AR Perfumes Ichra Bazar. Sweet Kashmiri saffron, Bulgarian rose, and animalic white musk.", notes: { top: ["Kashmiri Saffron", "Sweet Cardamom"], heart: ["Bulgarian Rose", "Oud Wood"], base: ["Golden Amber", "White Musk", "Sandalwood"] } }
+    ];
+    window.PRODUCTS_DATA = PRODUCTS_DATA;
+
+    // Cart System
+    class LuxuryCart {
+      constructor() {
+        this.items = JSON.parse(localStorage.getItem('ar_perfumes_cart')) || [];
+        this.discount = 0;
+        this.discountCode = '';
+        this.init();
+      }
+      init() {
+        this.renderCartItems();
+        this.updateCartBadge();
+        this.setupDraggable();
+        this.setupListeners();
+      }
+      save() {
+        localStorage.setItem('ar_perfumes_cart', JSON.stringify(this.items));
+        this.updateCartBadge();
+        this.renderCartItems();
+      }
+      addItem(productId, quantity = 1) {
+        const product = PRODUCTS_DATA.find(p => p.id === productId);
+        if (!product) return;
+        const existing = this.items.find(item => item.id === productId);
+        if (existing) { existing.quantity += quantity; }
+        else { this.items.push({ id: product.id, name: product.name, arabicName: product.arabicName, price: product.price, size: product.size, image: product.image, quantity: quantity }); }
+        this.save();
+        this.showToast(`✨ Added "${product.name}" to your Royal Bag!`);
+      }
+      removeItem(productId) { this.items = this.items.filter(item => item.id !== productId); this.save(); }
+      updateQuantity(productId, delta) {
+        const item = this.items.find(i => i.id === productId);
+        if (!item) return;
+        item.quantity += delta;
+        if (item.quantity <= 0) this.removeItem(productId); else this.save();
+      }
+      getSubtotal() { return this.items.reduce((sum, item) => sum + (item.price * item.quantity), 0); }
+      getTotal() { const sub = this.getSubtotal(); return Math.max(0, sub - (sub * this.discount)); }
+      getItemCount() { return this.items.reduce((sum, item) => sum + item.quantity, 0); }
+      updateCartBadge() {
+        const count = this.getItemCount();
+        document.querySelectorAll('.cart-count-badge').forEach(b => {
+          b.textContent = count;
+          b.style.display = count > 0 ? 'flex' : 'none';
+        });
+      }
+      showToast(msg) {
+        let toast = document.getElementById('luxury-toast');
+        if (!toast) {
+          toast = document.createElement('div');
+          toast.id = 'luxury-toast';
+          toast.className = 'luxury-toast';
+          document.body.appendChild(toast);
+        }
+        toast.innerHTML = `<div style="display:flex; align-items:center; gap:10px;"><span style="color:var(--gold-bright); font-size:1.2rem;">⚜</span><span style="font-size:0.9rem; color:#fff;">${msg}</span></div>`;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 3000);
+      }
+      renderCartItems() {
+        const container = document.getElementById('cart-items-container');
+        const emptyState = document.getElementById('cart-empty-state');
+        const subtotalEl = document.getElementById('cart-subtotal-price');
+        const totalEl = document.getElementById('cart-total-price');
+        const discountRow = document.getElementById('cart-discount-row');
+        const discountVal = document.getElementById('cart-discount-value');
+        if (!container) return;
+
+        if (this.items.length === 0) {
+          container.innerHTML = '';
+          if (emptyState) emptyState.style.display = 'block';
+          if (subtotalEl) subtotalEl.textContent = 'Rs. 0';
+          if (totalEl) totalEl.textContent = 'Rs. 0';
+          if (discountRow) discountRow.style.display = 'none';
+          return;
+        }
+        if (emptyState) emptyState.style.display = 'none';
+
+        container.innerHTML = this.items.map(item => `
+          <div class="cart-item-row">
+            <div class="cart-item-img-wrap"><img src="${item.image}" alt="${item.name}" /></div>
+            <div class="cart-item-info">
+              <div style="display:flex; justify-content:space-between;">
+                <h4 style="font-size:0.95rem; color:#fff;">${item.name}</h4>
+                <button onclick="window.cartInstance.removeItem('${item.id}')" style="color:#888;">&times;</button>
+              </div>
+              <span style="font-size:0.75rem; color:#888;">${item.size}</span>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
+                <div class="cart-qty-ctrl">
+                  <button class="qty-btn" onclick="window.cartInstance.updateQuantity('${item.id}', -1)">-</button>
+                  <span class="qty-num">${item.quantity}</span>
+                  <button class="qty-btn" onclick="window.cartInstance.updateQuantity('${item.id}', 1)">+</button>
+                </div>
+                <span style="font-family:var(--font-serif-royal); color:var(--gold-bright); font-weight:700;">Rs. ${(item.price * item.quantity).toLocaleString()}</span>
+              </div>
+            </div>
+          </div>
+        `).join('');
+
+        const subtotal = this.getSubtotal();
+        const total = this.getTotal();
+        if (subtotalEl) subtotalEl.textContent = `Rs. ${subtotal.toLocaleString()}`;
+        if (totalEl) totalEl.textContent = `Rs. ${total.toLocaleString()}`;
+        if (this.discount > 0 && discountRow && discountVal) {
+          discountRow.style.display = 'flex';
+          discountVal.textContent = `- Rs. ${(subtotal * this.discount).toLocaleString()} (${this.discountCode})`;
+        } else if (discountRow) {
+          discountRow.style.display = 'none';
+        }
+      }
+      applyPromoCode(code) {
+        const clean = code.trim().toUpperCase();
+        if (clean === 'ROYAL10' || clean === 'ICHRA10') {
+          this.discount = 0.10; this.discountCode = clean; this.renderCartItems(); this.showToast('👑 10% Royal Discount Applied!');
+          return { success: true, message: '10% Discount Applied!' };
+        }
+        return { success: false, message: 'Invalid code. Try "ROYAL10"' };
+      }
+      setupDraggable() {
+        const cartEl = document.getElementById('floating-cart-btn');
+        if (!cartEl) return;
+        let mouseX = 0, mouseY = 0, hasMoved = false;
+
+        const onDown = (e) => {
+          hasMoved = false;
+          mouseX = e.clientX || (e.touches && e.touches[0].clientX);
+          mouseY = e.clientY || (e.touches && e.touches[0].clientY);
+          document.addEventListener('mousemove', onMove);
+          document.addEventListener('mouseup', onUp);
+          document.addEventListener('touchmove', onMove, { passive: false });
+          document.addEventListener('touchend', onUp);
+        };
+        const onMove = (e) => {
+          const cx = e.clientX || (e.touches && e.touches[0].clientX);
+          const cy = e.clientY || (e.touches && e.touches[0].clientY);
+          const dx = cx - mouseX, dy = cy - mouseY;
+          if (Math.abs(dx) > 3 || Math.abs(dy) > 3) { hasMoved = true; cartEl.classList.add('is-dragging'); }
+          let posX = cartEl.offsetLeft + dx, posY = cartEl.offsetTop + dy;
+          posX = Math.max(10, Math.min(posX, window.innerWidth - cartEl.offsetWidth - 10));
+          posY = Math.max(10, Math.min(posY, window.innerHeight - cartEl.offsetHeight - 10));
+          cartEl.style.left = `${posX}px`; cartEl.style.top = `${posY}px`; cartEl.style.right = 'auto';
+          mouseX = cx; mouseY = cy;
+        };
+        const onUp = () => {
+          document.removeEventListener('mousemove', onMove); document.removeEventListener('mouseup', onUp);
+          document.removeEventListener('touchmove', onMove); document.removeEventListener('touchend', onUp);
+          setTimeout(() => cartEl.classList.remove('is-dragging'), 50);
+          if (!hasMoved) this.openDrawer();
+        };
+        cartEl.addEventListener('mousedown', onDown); cartEl.addEventListener('touchstart', onDown, { passive: false });
+      }
+      setupListeners() {
+        document.querySelectorAll('.open-cart-drawer-btn').forEach(btn => btn.addEventListener('click', () => this.openDrawer()));
+        document.getElementById('close-cart-drawer-btn')?.addEventListener('click', () => this.closeDrawer());
+        document.getElementById('cart-drawer-overlay')?.addEventListener('click', () => this.closeDrawer());
+        document.getElementById('apply-promo-btn')?.addEventListener('click', () => {
+          const val = document.getElementById('cart-promo-input')?.value || '';
+          const res = this.applyPromoCode(val);
+          const msg = document.getElementById('promo-status-msg');
+          if (msg) { msg.textContent = res.message; msg.style.color = res.success ? '#25d366' : '#ff5252'; }
+        });
+        document.getElementById('cart-whatsapp-checkout-btn')?.addEventListener('click', () => this.checkoutWhatsApp());
+      }
+      openDrawer() {
+        document.getElementById('luxury-cart-drawer')?.classList.add('active');
+        document.getElementById('cart-drawer-overlay')?.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+      closeDrawer() {
+        document.getElementById('luxury-cart-drawer')?.classList.remove('active');
+        document.getElementById('cart-drawer-overlay')?.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+      checkoutWhatsApp() {
+        if (this.items.length === 0) { this.showToast('Your royal bag is empty!'); return; }
+        const name = document.getElementById('checkout-cust-name')?.value.trim() || 'Valued Client';
+        const city = document.getElementById('checkout-cust-city')?.value.trim() || 'Lahore';
+        const addr = document.getElementById('checkout-cust-address')?.value.trim() || 'Store Pickup / Cash on Delivery';
+
+        let order = `*👑 AR PERFUMES - NEW LUXURY ORDER 👑*\n--------------------------------------\n*Customer:* ${name}\n*City:* ${city}\n*Address:* ${addr}\n--------------------------------------\n*ITEMS:*\n`;
+        this.items.forEach((item, i) => {
+          order += `${i + 1}. *${item.name}* (${item.size})\n   Qty: ${item.quantity} x Rs. ${item.price.toLocaleString()} = Rs. ${(item.price * item.quantity).toLocaleString()}\n`;
+        });
+        const sub = this.getSubtotal(), tot = this.getTotal();
+        order += `--------------------------------------\n*Subtotal:* Rs. ${sub.toLocaleString()}\n`;
+        if (this.discount > 0) order += `*Discount:* - Rs. ${(sub * this.discount).toLocaleString()}\n`;
+        order += `*Total Amount:* *Rs. ${tot.toLocaleString()}*\n--------------------------------------\n*Shop:* Main Ichra Bazar Lahore\n*Official Line:* 03088367974\n\nPlease confirm my order dispatch. Thank you!`;
+
+        window.open(`https://wa.me/923088367974?text=${encodeURIComponent(order)}`, '_blank');
+      }
+    }
+
+    // Chatbot ("Aura")
+    class FragranceChatbot {
+      constructor() { this.isOpen = false; this.init(); }
+      init() {
+        document.getElementById('chatbot-toggle-btn')?.addEventListener('click', () => this.toggle());
+        document.getElementById('chatbot-close-btn')?.addEventListener('click', () => this.close());
+        document.getElementById('chatbot-send-btn')?.addEventListener('click', () => this.send());
+        document.getElementById('chatbot-input-field')?.addEventListener('keypress', (e) => { if (e.key === 'Enter') this.send(); });
+        document.addEventListener('click', (e) => {
+          const chip = e.target.closest('.chat-suggestion-chip');
+          if (chip) this.processQuery(chip.textContent.trim());
+        });
+        setTimeout(() => {
+          this.addBotMessage("Assalam-o-Alaikum & Welcome to **AR Perfumes**! 👑\n\nI am **Aura**, your Royal Fragrance Consultant. How may I assist you today?", [
+            "🌟 Recommend Best Sellers", "⏱ Longest Lasting Perfumes", "📍 Lahore Shop Location", "🚚 Delivery & COD", "💬 WhatsApp Chat"
+          ]);
+        }, 1200);
+      }
+      toggle() { this.isOpen ? this.close() : this.open(); }
+      open() {
+        document.getElementById('chatbot-widget-container')?.classList.add('active');
+        this.isOpen = true;
+        document.querySelector('.chat-notification-dot')?.setAttribute('style', 'display:none');
+      }
+      close() { document.getElementById('chatbot-widget-container')?.classList.remove('active'); this.isOpen = false; }
+      send() {
+        const input = document.getElementById('chatbot-input-field');
+        if (!input || !input.value.trim()) return;
+        const text = input.value.trim();
+        input.value = '';
+        this.processQuery(text);
+      }
+      processQuery(text) {
+        this.addUserMessage(text);
+        setTimeout(() => {
+          const res = this.generateResponse(text);
+          this.addBotMessage(res.text, res.suggestions, res.product);
+        }, 600);
+      }
+      addUserMessage(text) {
+        const list = document.getElementById('chatbot-messages-list');
+        if (!list) return;
+        const row = document.createElement('div');
+        row.className = 'chat-bubble-row user-bubble-row';
+        row.innerHTML = `<div class="chat-bubble user-bubble"><p>${text}</p></div>`;
+        list.appendChild(row);
+        list.scrollTop = list.scrollHeight;
+      }
+      addBotMessage(text, suggestions = [], product = null) {
+        const list = document.getElementById('chatbot-messages-list');
+        if (!list) return;
+        const row = document.createElement('div');
+        row.className = 'chat-bubble-row';
+        let prodHtml = product ? `<div style="margin-top:8px; background:#111; border:1px solid var(--border-gold); padding:6px; border-radius:6px; display:flex; gap:8px;"><img src="${product.image}" style="width:45px; height:45px; object-fit:cover; border-radius:4px;" /><div><div style="font-size:0.8rem; font-weight:700; color:#fff;">${product.name}</div><div style="color:var(--gold-bright); font-size:0.78rem;">Rs. ${product.price.toLocaleString()}</div><button onclick="window.cartInstance.addItem('${product.id}', 1)" style="background:var(--gold-gradient); color:#000; font-size:0.68rem; font-weight:700; padding:2px 6px; border-radius:3px; margin-top:2px;">+ Add</button></div></div>` : '';
+        let chipsHtml = suggestions.length ? `<div class="chat-suggestions-wrap">${suggestions.map(s => `<button class="chat-suggestion-chip">${s}</button>`).join('')}</div>` : '';
+        row.innerHTML = `<div class="bot-avatar-gold">👑</div><div class="chat-bubble bot-bubble"><div>${text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br/>')}</div>${prodHtml}${chipsHtml}</div>`;
+        list.appendChild(row);
+        list.scrollTop = list.scrollHeight;
+      }
+      generateResponse(query) {
+        const q = query.toLowerCase();
+        if (q.includes('location') || q.includes('shop') || q.includes('address') || q.includes('ichra')) {
+          return { text: "📍 **AR Perfumes Boutique Location:**\n\n🏛 **Main Ichra Bazar, Lahore, Pakistan**\n⏰ **Timings:** 11:00 AM – 11:00 PM (Daily)\n📞 **Helpline:** 03088367974\n\nComplimentary scent sampling available in store!", suggestions: ["🚚 Delivery Details", "🌟 View Catalog", "💬 WhatsApp Chat"] };
+        }
+        if (q.includes('best') || q.includes('recommend') || q.includes('seller')) {
+          const p = PRODUCTS_DATA[0];
+          return { text: `✨ Our crown jewel is **${p.name}**! 35% Extrait essence of Cambodian Oud and Taif Rose with 24h+ lasting.`, product: p, suggestions: ["View Attars", "Lahore Velvet Noir", "Order on WhatsApp"] };
+        }
+        if (q.includes('lasting') || q.includes('longevity') || q.includes('stay')) {
+          const p = PRODUCTS_DATA[6];
+          return { text: "⏱ For supreme longevity (48+ hours), our **Dehn Al Oud Hindi** and **Royal Oud** stay on clothes for days!", product: p, suggestions: ["Royal Oud Al-Malaki", "Dehn Al Oud Hindi", "Add to Bag"] };
+        }
+        if (q.includes('delivery') || q.includes('cod') || q.includes('shipping')) {
+          return { text: "🚚 **Delivery Details:**\n• **Lahore:** Same-day / Express (Free on Rs. 4,000+)\n• **Pakistan-wide:** 2-3 days via TCS/Leopard with Cash on Delivery (COD).", suggestions: ["Order on WhatsApp", "Payment Options", "🌟 View Collection"] };
+        }
+        return { text: "I would love to help you find your signature fragrance! You can also chat directly with our Master Perfumer on WhatsApp at **03088367974**.", suggestions: ["🌟 Best Sellers", "🪵 Royal Oud", "🕌 Pure Attars", "📍 Store Location"] };
+      }
+    }
+
+    // App Initialization
+    document.addEventListener('DOMContentLoaded', () => {
+      window.cartInstance = new LuxuryCart();
+      window.chatbotInstance = new FragranceChatbot();
+      initParticles();
+      renderCatalog('all');
+      initFilters();
+      initModals();
+      initScroll();
+
+      // Mobile Menu
+      const mobBtn = document.getElementById('mobile-menu-toggle');
+      const navMenu = document.getElementById('luxury-nav-menu');
+      mobBtn?.addEventListener('click', () => { navMenu?.classList.toggle('active'); });
+      document.querySelectorAll('.nav-link').forEach(l => l.addEventListener('click', () => navMenu?.classList.remove('active')));
+
+      // Contact Form
+      document.getElementById('luxury-contact-form')?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('contact-name')?.value || '';
+        const phone = document.getElementById('contact-phone')?.value || '';
+        const msg = document.getElementById('contact-message')?.value || '';
+        const text = `*👑 AR PERFUMES - CONTACT INQUIRY 👑*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Message:* ${msg}`;
+        window.open(`https://wa.me/923088367974?text=${encodeURIComponent(text)}`, '_blank');
+      });
+    });
+
+    // Particle Canvas
+    function initParticles() {
+      const canvas = document.getElementById('hero-particles-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let w = canvas.width = canvas.offsetWidth, h = canvas.height = canvas.offsetHeight;
+      const particles = [];
+      for (let i = 0; i < 45; i++) {
+        particles.push({ x: Math.random() * w, y: Math.random() * h, r: Math.random() * 2 + 0.5, sy: -(Math.random() * 0.4 + 0.2), sx: (Math.random() - 0.5) * 0.3 });
+      }
+      function draw() {
+        ctx.clearRect(0, 0, w, h);
+        particles.forEach(p => {
+          p.y += p.sy; p.x += p.sx;
+          if (p.y < 0) { p.y = h; p.x = Math.random() * w; }
+          ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(212, 175, 55, 0.6)'; ctx.fill();
+        });
+        requestAnimationFrame(draw);
+      }
+      draw();
+    }
+
+    // Render Catalog
+    function renderCatalog(category = 'all', query = '') {
+      const grid = document.getElementById('products-grid-container');
+      if (!grid) return;
+      let list = PRODUCTS_DATA;
+      if (category !== 'all') list = list.filter(p => p.category === category);
+      if (query) {
+        const q = query.toLowerCase();
+        list = list.filter(p => p.name.toLowerCase().includes(q) || p.tagline.toLowerCase().includes(q) || p.notes.top.some(n=>n.toLowerCase().includes(q)) || p.notes.heart.some(n=>n.toLowerCase().includes(q)) || p.notes.base.some(n=>n.toLowerCase().includes(q)));
+      }
+
+      grid.innerHTML = list.map(p => `
+        <div class="product-card">
+          <div class="product-badge-wrap">
+            ${p.badge ? `<span class="gold-badge">${p.badge}</span>` : ''}
+            <span class="gender-badge">${p.gender}</span>
+          </div>
+          <div class="product-image-container" onclick="openQuickViewModal('${p.id}')">
+            <img src="${p.image}" alt="${p.name}" class="product-image" loading="lazy" />
+          </div>
+          <div class="product-details">
+            <div class="product-rating-row"><span class="stars-gold">★★★★★</span><span style="font-size:0.75rem; color:#777;">(${p.reviewsCount})</span></div>
+            <span class="product-arabic-title">${p.arabicName}</span>
+            <h3 class="product-title" onclick="openQuickViewModal('${p.id}')">${p.name}</h3>
+            <p class="product-tagline">${p.tagline}</p>
+            <div class="product-notes-chips">
+              <span class="note-chip">${p.notes.top[0]}</span>
+              <span class="note-chip">${p.notes.heart[0]}</span>
+              <span class="note-chip">${p.notes.base[0]}</span>
+            </div>
+            <div class="product-card-footer">
+              <div><span class="price-current">Rs. ${p.price.toLocaleString()}</span></div>
+              <div class="product-actions-btn-group">
+                <button class="add-to-cart-btn" onclick="window.cartInstance.addItem('${p.id}', 1)"><span>Add</span></button>
+                <button class="direct-wa-btn" onclick="window.open('https://wa.me/923088367974?text=Hello%20AR%20Perfumes,%20I%20want%20to%20order%20${encodeURIComponent(p.name)}', '_blank')" title="WhatsApp Buy">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Category Tabs & Search
+    function initFilters() {
+      document.querySelectorAll('.category-tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.category-tab-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderCatalog(btn.getAttribute('data-category'));
+        });
+      });
+      document.getElementById('catalog-search-input')?.addEventListener('input', (e) => {
+        const cat = document.querySelector('.category-tab-btn.active')?.getAttribute('data-category') || 'all';
+        renderCatalog(cat, e.target.value.trim());
+      });
+    }
+
+    // Modal
+    function initModals() {
+      const modal = document.getElementById('quick-view-modal');
+      const overlay = document.getElementById('modal-backdrop-overlay');
+      const close = () => { modal?.classList.remove('active'); overlay?.classList.remove('active'); document.body.style.overflow = ''; };
+      document.getElementById('close-quick-view-btn')?.addEventListener('click', close);
+      overlay?.addEventListener('click', close);
+      window.closeQuickViewModal = close;
+    }
+
+    function openQuickViewModal(id) {
+      const p = PRODUCTS_DATA.find(x => x.id === id);
+      if (!p) return;
+      const content = document.getElementById('quick-view-modal-content');
+      if (!content) return;
+      content.innerHTML = `
+        <div class="qv-grid">
+          <div class="qv-img-wrap"><img src="${p.image}" alt="${p.name}" /></div>
+          <div>
+            <span style="font-family:var(--font-arabic); font-size:1.2rem; color:var(--gold-muted);">${p.arabicName}</span>
+            <h2 style="font-size:2rem; font-weight:700; margin-bottom:4px;">${p.name}</h2>
+            <p style="font-size:0.9rem; color:var(--gold-light); margin-bottom:12px;">${p.tagline}</p>
+            <div style="font-family:var(--font-serif-royal); font-size:1.6rem; font-weight:800; color:var(--gold-bright); margin-bottom:14px;">Rs. ${p.price.toLocaleString()} <span style="font-size:0.8rem; border:1px solid var(--border-gold); padding:3px 8px; border-radius:10px; color:#fff;">${p.size}</span></div>
+            <p style="font-size:0.92rem; color:#c0bdb4; margin-bottom:20px;">${p.description}</p>
+            <div class="fragrance-pyramid-card">
+              <h4 style="font-size:0.88rem; color:var(--gold-bright); margin-bottom:8px;">⚜ Olfactory Pyramid Breakdown</h4>
+              <div style="font-size:0.8rem; margin-bottom:4px;"><strong style="color:var(--gold-light);">Top:</strong> ${p.notes.top.join(', ')}</div>
+              <div style="font-size:0.8rem; margin-bottom:4px;"><strong style="color:var(--gold-light);">Heart:</strong> ${p.notes.heart.join(', ')}</div>
+              <div style="font-size:0.8rem;"><strong style="color:var(--gold-light);">Base:</strong> ${p.notes.base.join(', ')}</div>
+            </div>
+            <div style="display:flex; gap:12px; margin-top:20px;">
+              <button class="gold-btn" onclick="window.cartInstance.addItem('${p.id}', 1); window.closeQuickViewModal();" style="flex-grow:1;">Add to Royal Bag</button>
+              <button class="wa-btn" onclick="window.open('https://wa.me/923088367974?text=Hello%20AR%20Perfumes,%20I%20want%20to%20order%20${encodeURIComponent(p.name)}', '_blank')">WhatsApp</button>
+            </div>
+          </div>
+        </div>
+      `;
+      document.getElementById('quick-view-modal')?.classList.add('active');
+      document.getElementById('modal-backdrop-overlay')?.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    window.openQuickViewModal = openQuickViewModal;
+
+    function initScroll() {
+      window.addEventListener('scroll', () => {
+        const header = document.getElementById('luxury-header');
+        if (window.scrollY > 40) header?.classList.add('scrolled');
+        else header?.classList.remove('scrolled');
+      });
+    }
+  </script>
+</body>
+</html>
